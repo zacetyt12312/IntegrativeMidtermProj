@@ -1,0 +1,38 @@
+body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.carousel-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 50px;;
+}
+.carousel {
+    max-width: 550px; 
+    width: 100%;
+}
+.carousel img {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.intro {
+    text-align: center;
+    padding: 50px;
+}
+.navbar {
+    background-color: #000000;
+}
+.navbar-brand, .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-item {
+    white-space: nowrap; 
+    margin-left: 10px;  
+}

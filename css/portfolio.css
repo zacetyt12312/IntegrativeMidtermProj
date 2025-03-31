@@ -1,0 +1,44 @@
+/* General Styling */
+body {
+    background-color: rgba(255, 255, 255);
+    background-size: cover;
+    color: #ffffff;
+}
+
+.contents {
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+    background: rgba(0, 0, 0);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.navbar {
+    background-color: #000000;
+}
+.navbar-nav .nav-item {
+    white-space: nowrap; 
+    margin-left: 10px;  
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: 12px auto;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    background: transparent;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
+}
