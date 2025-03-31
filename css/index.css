@@ -12,10 +12,12 @@ body {
     margin-top: 0px;
     margin-bottom: 50px;;
 }
+
 .carousel {
     max-width: 550px; 
     width: 100%;
 }
+
 .carousel img {
     height: 350px;
     object-fit: cover;
